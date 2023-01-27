@@ -42,5 +42,6 @@ jobs:
         
         blackduck_scan_full: false
         # bridge_download_url: https://sig-repo.synopsys.com/artifactory/bds-integrations-release/com/synopsys/integration/synopsys-action/0.1.72/ci-package-0.1.72-linux64.zip
-        blackduck_automation_fixpr: false
+        github_token: ${{ secrets.GH_TOKEN }}
+        blackduck_automation_fixpr: true
         blackduck_scan_failure_severities: "[\"ALL\"]"
