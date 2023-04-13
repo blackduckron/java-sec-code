@@ -38,6 +38,7 @@ jobs:
       uses: synopsys-sig/synopsys-action@v1.1.0
       env:
         DETECT_PROJECT_NAME: RDJ_java_sec_code_GH_Action
+        DETECT.BLACKDUCK.RAPID.COMPARE.MODE: ALL
       with:
         blackduck_apiToken: ${{ secrets.BLACKDUCK_API_TOKEN }}
         blackduck_url: ${{ secrets.BLACKDUCK_URL }}
