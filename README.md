@@ -3,8 +3,6 @@
 
 Java sec code is a very powerful and friendly project for learning Java vulnerability code.
 
-[中文文档](https://github.com/JoyChou93/java-sec-code/blob/master/README_zh.md)
-
 Change
 
 ## Introduce
