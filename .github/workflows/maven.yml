@@ -47,4 +47,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         blackduck_automation_fixpr: true
         blackduck_scan_failure_severities: "ALL"
+        blackduck_automation_prComment: true
 
