@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>sec</groupId>
-    <artifactId>java-sec-code</artifactId>
+    <artifactId>java-sec-code-SNPS-GHAction</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
