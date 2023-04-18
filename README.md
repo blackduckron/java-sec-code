@@ -5,7 +5,7 @@ Java sec code is a very powerful and friendly project for learning Java vulnerab
 
 (https://github.com/JoyChou93/java-sec-code/blob/master/README_zh.md)
 
-Another change
+And another change
 
 ## Introduce
 
