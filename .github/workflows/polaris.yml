@@ -26,6 +26,7 @@ jobs:
         polaris_application_name: RDJ-${{ github.event.repository.name }}
         polaris_project_name: ${{ github.event.repository.name }}
         polaris_prComment_enabled: 'true'
+        polaris_prComment_severities: 'high,critical,medium'
         polaris_reports_sarif_create: 'true'
         polaris_upload_sarif_report: 'true'
         github_token: ${{ secrets.GITHUB_TOKEN }}
