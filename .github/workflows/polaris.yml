@@ -18,7 +18,7 @@ jobs:
         distribution: microsoft
         cache: maven
     - name: Polaris Scan
-      uses: synopsys-sig/synopsys-action@v1.9.0
+      uses: blackduck-inc/black-duck-security-scan@v2.1.1
       with:
         polaris_server_url: ${{ vars.POLARIS_SERVER_URL }}
         polaris_access_token: ${{ secrets.POLARIS_ACCESS_TOKEN }}
